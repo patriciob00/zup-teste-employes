@@ -1,0 +1,32 @@
+  @import '../../../../assets/scss/variables/color.scss';
+
+.inner-content-wrapper {
+  width: -webkit-fill-available;
+  // min-height: -webkit-fill-available;
+  height: fit-content;
+  background-color: transparent;
+  // padding: 5%;
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  margin: 5% 0px;
+
+  .inner-wrapper {
+    width: 90%;
+    height: fit-content;
+    background-color: $cl-white;
+    // border-radius: 5px;
+
+    .card-wrapper {
+      &:first-child {
+        border-radius: 10px 10px 0px 0px
+      }
+
+      &:last-child {
+        border-radius: 0px 0px 10px 10px
+      }
+      
+    }
+  }
+}
+

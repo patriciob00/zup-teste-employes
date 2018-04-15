@@ -1,0 +1,29 @@
+@import '../../../../../../assets/scss/variables/color.scss';
+
+.search-bar-group {
+  display: flex;
+  min-width: 700px;
+  width: 70%;
+  // max-width: 780px;
+  background: white;
+  border-radius: 35px;
+  min-height: 35px;
+  flex-direction: row;
+  align-items: center;
+  
+  .search-icon {
+    width: 5%;
+    i {
+      color: $cl-selected
+    }
+  };
+  .search-input {
+    height: 20px;
+    max-height: 90%;
+    border: none;
+    width: 90%;
+    color: $cl-darkgray;
+    font-size: 1.2rem;
+    &:focus { outline: none!important }
+  };
+}

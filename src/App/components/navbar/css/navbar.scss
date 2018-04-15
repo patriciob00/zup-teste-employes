@@ -1,0 +1,15 @@
+@import '../../../../assets/scss/variables/color.scss';
+
+.navbar {
+  background-color: $cl-darkgray;
+  font-size: 17px;
+  max-height: 60px;
+  height: 8vh;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px 20px;
+  box-shadow: 0px 4px 14px 0px rgba($cl-black,0.2);
+  z-index: 2;
+}
